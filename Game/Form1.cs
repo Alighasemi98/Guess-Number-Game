@@ -25,7 +25,7 @@ namespace Game
 
                 int input = int.Parse(textBox1.Text);
                 textBox1.Text = "";
-                if (input > 999 || input < 100)
+                if (input > 999 || input < 10)
                 {
                     MessageBox.Show("Number is not in range");
                     return;
